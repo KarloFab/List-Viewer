@@ -13,6 +13,7 @@
 		023DA24327A07DEE004D3604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023DA24127A07DEE004D3604 /* Main.storyboard */; };
 		023DA24527A07DEF004D3604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023DA24427A07DEF004D3604 /* Assets.xcassets */; };
 		023DA24827A07DEF004D3604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023DA24627A07DEF004D3604 /* LaunchScreen.storyboard */; };
+		023DA25127A07F88004D3604 /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = 023DA25027A07F88004D3604 /* ss.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		023DA24427A07DEF004D3604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023DA24727A07DEF004D3604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023DA24927A07DEF004D3604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023DA25027A07F88004D3604 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss.png; path = ../../../../../ss.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		023DA23A27A07DEE004D3604 /* ListViewer */ = {
 			isa = PBXGroup;
 			children = (
+				023DA24F27A07EAE004D3604 /* Images */,
 				023DA23B27A07DEE004D3604 /* AppDelegate.swift */,
 				023DA23D27A07DEE004D3604 /* SceneDelegate.swift */,
 				023DA23F27A07DEE004D3604 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				023DA24927A07DEF004D3604 /* Info.plist */,
 			);
 			path = ListViewer;
+			sourceTree = "<group>";
+		};
+		023DA24F27A07EAE004D3604 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				023DA25027A07F88004D3604 /* ss.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				023DA24827A07DEF004D3604 /* LaunchScreen.storyboard in Resources */,
 				023DA24527A07DEF004D3604 /* Assets.xcassets in Resources */,
 				023DA24327A07DEE004D3604 /* Main.storyboard in Resources */,
+				023DA25127A07F88004D3604 /* ss.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
