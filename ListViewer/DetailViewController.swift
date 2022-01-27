@@ -9,6 +9,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var selectedImage: UIImageView!
+    var selectedImageName: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

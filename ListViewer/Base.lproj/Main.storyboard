@@ -49,17 +49,31 @@
         <!--Detail View Controller-->
         <scene sceneID="Zx4-YD-s95">
             <objects>
-                <viewController id="ZQA-c1-zZu" customClass="DetailViewController" customModule="ListViewer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="ZQA-c1-zZu" customClass="DetailViewController" customModule="ListViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N1e-hq-Lw0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="31x-4c-2PF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BRC-jI-F6m"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="31x-4c-2PF" firstAttribute="leading" secondItem="BRC-jI-F6m" secondAttribute="leading" id="4y0-DE-hBt"/>
+                            <constraint firstItem="31x-4c-2PF" firstAttribute="centerY" secondItem="N1e-hq-Lw0" secondAttribute="centerY" id="Fm1-h0-B4o"/>
+                            <constraint firstItem="31x-4c-2PF" firstAttribute="centerX" secondItem="N1e-hq-Lw0" secondAttribute="centerX" id="OxN-lF-Bgd"/>
+                            <constraint firstItem="31x-4c-2PF" firstAttribute="top" secondItem="N1e-hq-Lw0" secondAttribute="topMargin" constant="-44" id="z19-XC-b1Y"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="selectedImage" destination="31x-4c-2PF" id="h4l-Cv-suk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AOM-1n-id1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1903" y="-38"/>
+            <point key="canvasLocation" x="1902.8985507246377" y="-37.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TWe-Li-aSI">
