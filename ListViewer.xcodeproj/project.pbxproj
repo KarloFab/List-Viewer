@@ -13,8 +13,8 @@
 		023DA24327A07DEE004D3604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023DA24127A07DEE004D3604 /* Main.storyboard */; };
 		023DA24527A07DEF004D3604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023DA24427A07DEF004D3604 /* Assets.xcassets */; };
 		023DA24827A07DEF004D3604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023DA24627A07DEF004D3604 /* LaunchScreen.storyboard */; };
-		023DA25127A07F88004D3604 /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = 023DA25027A07F88004D3604 /* ss.png */; };
 		023DA25327A33E17004D3604 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023DA25227A33E17004D3604 /* DetailViewController.swift */; };
+		023DA27827AC6E30004D3604 /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = 023DA27727AC6E30004D3604 /* ss.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		023DA24427A07DEF004D3604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023DA24727A07DEF004D3604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023DA24927A07DEF004D3604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		023DA25027A07F88004D3604 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss.png; path = ../../../../../ss.png; sourceTree = "<group>"; };
 		023DA25227A33E17004D3604 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		023DA27727AC6E30004D3604 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss.png; path = ../../../../../../.Trash/ss.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		023DA24F27A07EAE004D3604 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				023DA25027A07F88004D3604 /* ss.png */,
+				023DA27727AC6E30004D3604 /* ss.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -139,10 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023DA27827AC6E30004D3604 /* ss.png in Resources */,
 				023DA24827A07DEF004D3604 /* LaunchScreen.storyboard in Resources */,
 				023DA24527A07DEF004D3604 /* Assets.xcassets in Resources */,
 				023DA24327A07DEE004D3604 /* Main.storyboard in Resources */,
-				023DA25127A07F88004D3604 /* ss.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
